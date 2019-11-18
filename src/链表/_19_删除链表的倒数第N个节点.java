@@ -1,4 +1,4 @@
-package com.lobster;
+package 链表;
 
 public class _19_删除链表的倒数第N个节点 {
     public ListNode removeNthFromEnd(ListNode head, int n) {

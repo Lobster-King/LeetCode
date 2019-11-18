@@ -1,4 +1,4 @@
-package com.lobster;
+package 链表;
 
     public class ListNode {
         int val;
