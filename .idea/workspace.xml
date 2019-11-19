@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6871a2-610a-4b54-9290-be8bacf10226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_206_反转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/链表/_19_删除链表的倒数第N个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/链表/_19_删除链表的倒数第N个节点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/链表/_21_合并两个有序链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/链表/_21_合并两个有序链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/链表/_23_合并K个排序链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/链表/_23_合并K个排序链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/链表/_2_两数相加.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/链表/_2_两数相加.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_19_删除链表的倒数第N个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_19_删除链表的倒数第N个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_21_合并两个有序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_21_合并两个有序链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_23_合并K个排序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_23_合并K个排序链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_2_两数相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_2_两数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/_83_删除排序链表中的重复元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +18,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="556">
+              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="413">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/链表/_83_删除排序链表中的重复元素.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -75,13 +74,14 @@
         <option value="$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java" />
         <option value="$PROJECT_DIR$/src/链表/_2_两数相加.java" />
         <option value="$PROJECT_DIR$/src/链表/_206_反转链表.java" />
-        <option value="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" />
+        <option value="$PROJECT_DIR$/src/链表/_83_删除排序链表中的重复元素.java" />
         <option value="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" />
+        <option value="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1392" />
     <option name="height" value="771" />
@@ -241,17 +241,18 @@
       <workItem from="1574086867865" duration="1332000" />
       <workItem from="1574090148251" duration="275000" />
       <workItem from="1574090448291" duration="260000" />
+      <workItem from="1574160848118" duration="2865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27281000" />
+    <option name="totallyTimeSpent" value="30146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1392" height="771" extended-state="0" />
+    <frame x="4" y="23" width="1392" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26444444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26814815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -287,30 +288,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/module-info.java" />
@@ -363,16 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/_82/_删除排序链表中的重复元素II.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/_82/_删除排序链表中的重复元素II.java" />
     <entry file="file://$PROJECT_DIR$/src/链表/_206_反转链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -380,13 +348,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/_83_删除排序链表中的重复元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="413">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
         </state>
       </provider>
     </entry>

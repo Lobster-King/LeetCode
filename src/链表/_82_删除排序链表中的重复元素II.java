@@ -22,31 +22,47 @@ import java.util.ArrayList;
 public class _82_删除排序链表中的重复元素II {
     public static ListNode deleteDuplicates(ListNode head) {
         ArrayList<Integer> dataArray = new ArrayList<>();
-        ArrayList<Integer> removeArray = new ArrayList<>();//需要移除的元素的值
-        ListNode cusorNode = new ListNode(-1);
-        cusorNode.next = head;
-        while (cusorNode.next != null) {
-            if (dataArray.contains(cusorNode.next.val)) {
-                removeArray.add(cusorNode.next.val);
-            } else  {
-                dataArray.add(cusorNode.next.val);
+        ArrayList<Integer> duplicatedArray = new ArrayList<>();
+
+        if (head == null || head.next == null) return head;
+
+        ListNode curNode = head.next;
+        ListNode preNode = head;
+
+
+        //将重复的数字放到一个数组中
+        while (preNode != null) {
+            if (dataArray.contains(preNode.val)) {
+                if (!duplicatedArray.contains(preNode.val)) {
+                    duplicatedArray.add(preNode.val);//记录哪个数值是重复的
+                }
+            } else {
+                dataArray.add(preNode.val);
             }
-            cusorNode = cusorNode.next;
-        }
-        cusorNode = new ListNode(-1);
-        cusorNode.next = head;
-
-        while (cusorNode.next != null) {
-            if (removeArray.contains(cusorNode.next.val)) {
-                /*移除该元素*/
-                cusorNode.next = cusorNode.next.next;
-            } else  {
-                cusorNode = cusorNode.next;
-            }
-
-
+            preNode = preNode.next;
         }
 
+        //进行删除操作
+        preNode = head;
+
+        while (curNode != null) {
+            if (duplicatedArray.contains(curNode.val)) {
+                //若包含此元素，则删除之
+                curNode = curNode.next;
+                preNode.next = curNode;
+            } else {
+                //不包含则移动下标
+                curNode = curNode.next;
+                preNode = preNode.next;
+            }
+
+        }
+
+        //注意第一个是没有进行检查的
+        if (duplicatedArray.contains(head.val)) {
+            //移除第一个元素
+            return head.next;
+        }
         return head;
     }
 

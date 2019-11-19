@@ -37,11 +37,21 @@ public class _25_K个一组翻转链表 {
         System.out.println(head);
     }
 
-    /*
-     * 思路一：对k进行除运算（除运算自动向下取整），然后对k进行遍历
-     *
-     * */
     public static ListNode reverseKGroup(ListNode head, int k) {
+
+        ListNode currNode = head;//步长为k（小于或等于链表的长度）
+        ListNode headNode = head;//新的头指针
+        ListNode tailNode = null;//新链表的尾节点
+        ListNode remianNode = null;
+
+        while (currNode != null) {
+            for (int i = 0; i < k; i++) {
+                if (currNode.next == null && i <= k-2)
+                currNode = currNode.next;
+            }
+            remianNode = currNode.next;
+        }
+
 
         return null;
 
