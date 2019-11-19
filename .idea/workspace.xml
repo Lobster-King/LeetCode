@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6871a2-610a-4b54-9290-be8bacf10226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_83_删除排序链表中的重复元素.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_82_删除排序链表中的重复元素II.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="571">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -241,12 +239,12 @@
       <workItem from="1574086867865" duration="1332000" />
       <workItem from="1574090148251" duration="275000" />
       <workItem from="1574090448291" duration="260000" />
-      <workItem from="1574160848118" duration="2865000" />
+      <workItem from="1574160848118" duration="2974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30146000" />
+    <option name="totallyTimeSpent" value="30255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1392" height="771" extended-state="0" />
@@ -367,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/_25_K个一组翻转链表.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="571">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
         </state>
       </provider>
     </entry>
