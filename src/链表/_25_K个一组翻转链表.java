@@ -56,9 +56,6 @@ public class _25_K个一组翻转链表 {
             //currNode再走一步
             currNode = currNode.next;
 
-
-
-
         }
 
         if (outside) {
