@@ -39,18 +39,30 @@ public class _25_K个一组翻转链表 {
 
     public static ListNode reverseKGroup(ListNode head, int k) {
 
+        ListNode prevNode = head;
         ListNode currNode = head;//步长为k（小于或等于链表的长度）
         ListNode headNode = head;//新的头指针
         ListNode tailNode = null;//新链表的尾节点
         ListNode remianNode = null;
 
+        for (int i = 0; i < k; i++) {
+            currNode = currNode.next;//走k步
+        }
+
         while (currNode != null) {
             for (int i = 0; i < k; i++) {
-                if (currNode.next == null && i <= k-2)
-                currNode = currNode.next;
+                currNode = currNode.next;//走k步
             }
-            remianNode = currNode.next;
-            
+            //currNode再走一步
+            currNode = currNode.next;
+
+
+
+
+        }
+
+        if (outside) {
+            //拼接最后面的链表
         }
 
 
